@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Infinite scroll</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <header id="searchbox">
+        <h1>Search movies on OMDB</h1>
+        <form id="moviesearch">
+          <input id="movietitle" type="text" name="movietitle" placeholder="write a movie title..." required />
+          <input id="search" type="submit" value="Search" />
+        </form>
+      </header>
+      
+      <div id="content" class="clearfix">
+        <div class="loading">Loading...</div>
+      </div>
+    </div>
+    
+    <script src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+  </body>
+</html>
