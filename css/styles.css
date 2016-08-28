@@ -109,6 +109,38 @@ header h1 {
   margin: 0 auto;
 }
 
+.movie {
+  border: 1px solid #8895A6;
+  text-align: center;
+  color: #FFFFFF;
+  background:rgba(255,255,255,0.2);
+}
+
+.movie h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+.movie img {
+  width: 250px;
+  height: 360px;
+  float: left;
+  padding: 15px;
+}
+
+.movie .field {
+  font-size: 1.3em; 
+  text-align: left; 
+  padding: 8px 0;
+  color: #0A0A3C;
+}
+
+.movie .field span {
+  color: #FFFFFF;
+  font-size: 0.9em;
+}
+
 .loading {
   color: white;
   padding: 10px 0;
@@ -117,3 +149,13 @@ header h1 {
   display: none;
 }
 
+.loading img {
+  width: 25px;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  text-align: center;
+  padding-top: 45px;
+}

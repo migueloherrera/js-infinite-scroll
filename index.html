@@ -10,15 +10,15 @@
       <header id="searchbox">
         <h1>Search movies on OMDB</h1>
         <form id="moviesearch">
-          <input id="movietitle" type="text" name="movietitle" placeholder="write a movie title..." required />
+          <input id="movietitle" type="text" name="movietitle" placeholder="Movie title to search..." required />
           <input id="search" type="submit" value="Search" />
         </form>
       </header>
       
-      <div id="content" class="clearfix">
-        <div class="loading">Loading...</div>
-      </div>
+      <div id="content" class="clearfix"></div>
     </div>
+    
+    <div class="loading">Loading...<img src="css/loading_spinner.gif" /></div>
     
     <script src="js/jQuery.js"></script>
     <script type="text/javascript" src="js/javascript.js"></script>
